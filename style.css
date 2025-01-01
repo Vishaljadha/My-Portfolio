@@ -1,0 +1,17 @@
+.nav-pills :hover{
+    color: aqua;
+}
+
+.fs-5{
+    font-weight: 900;
+    text-decoration: overline;
+    margin-left: 10%;
+}
+
+.body{
+    background-color: aquamarine;
+}
+
+.container-fluid{
+    background-color: aquamarine;
+}

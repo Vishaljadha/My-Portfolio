@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <a rel="icon" href="http://"></a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <style>
+    body{
+      background-color: #929fba;
+    }
+
+    .fs-5{
+      color: aliceblue;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-left: 10%;
+    }
+
+    .fs-4{
+      font-weight: 500;
+      text-decoration: underline;
+    }
+
+    .nav-pills :hover{
+    background-color: aqua;
+    border-radius: 30px;
+    text-decoration: underline;
+    transition: 2s;
+    }
+
+    .btn:hover{
+      box-shadow: 5px 5px 0px rgba(245, 245, 245, 0.264);
+      transition: 0.7s;
+    }
+
+    .about img{
+      width: 100%;
+      border-radius: 20%;
+      box-shadow: 10px 10px 10px rgba(35, 35, 86, 0.467);
+
+    }
+    
+    .about {
+      font-size: larger;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .container .cards-about{
+      background-color: beige;
+      border-radius: 30px;
+      box-shadow:20px 10px 10px black ;
+    }
+
+    .cards-about{
+      overflow: hidden;
+    }
+    
+    .cards-about:hover img{
+      scale: 1.1;
+      transition: all ease-out 1s;
+    }
+
+    .footer-logo img{
+      width: 20%;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    background-blend-mode: multiply;
+    }
+
+    .slide1{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+
+  </style>
+<body>
+    <div class="container-fluid" id="home">
+        <header class="navbar navbar-expand-lg navbar-prima bg-secondary fixed-top">
+          <a href="/" class="d-flex align-items-center mb-3 me-md-auto text-dark text-decoration-none">      
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Portfolio</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#home" class="nav-link" style="color: black;">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link" style="color: black;">About</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link" style="color: black;">Skills</a></li>
+            <li class="nav-item"><a href="#project" class="nav-link" style="color: black;">Project</a></li>
+            <li class="nav-item"><a href="#contactme" class="nav-link" style="color: black;">Contact Me</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <div class="slide1 bg-cover d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="text-uppercase text-white">Hello, I am</h6>
+              <h1 class="display-3 text-white text-uppercase">Vishal Jadhav</h1>
+              <h5 class="text-lower text-white">Bharati Vidyapeeth University Student,<span active> Computer Appliction</span></h5>
+              <a href="#"  class="btn my-3 btn-brand text-dark m-4" style="background: linear-gradient(to right,rgb(243, 5, 5),rgb(247, 137, 3)); font-weight: 650; ">View Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------------------------- header end --------------------------------------->
+
+
+      <!--------------------------------------- About start -------------------------------------->
+      <section class="about" id="about">
+        <div class="container mb-5">
+          <div class="row text-align-center mt-5">
+            <div class="cards-about p-5">
+              <h3>About</h3>
+                <hr class="w-50">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <h2>Vishal Balasaheb Jadhav </h2>
+                  <p> </p>
+                  <p>
+                    Full stack Python Developer with Knowledge of responsive User Interface (UI) 
+                    for web applications using HTML5, CSS3 and JavaScript.
+                    </p>
+                    <p>
+                      </i>Worked with Python frameworks such as Django.
+                    </p>
+                    <p>
+                      </i>Worked with relational database(Oracle & MySQL).
+                    </p>
+                    <p>
+                      </i>Well-rounded Knowledge of both front-end and back-end development, along with Python Programing.
+                    </p>
+                     <p>                   I have done some Project's combining Front-end, Back-end & Database
+                    </p>
+                     <p>
+                     1. <br>
+                     2.  <br>
+                     3. 
+                    </p>
+                    <a href="mailto:jadhavvishal0808@gmail.com" class="btn bg-info">Contact Me</a>
+                </div>
+                <div class="col-lg-6 col-12 mb-lg-0">
+                  <img src="developer.webp" alt="developer">
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+      </section>
+
+      <!---------------------------------------- About end  ------------------------------------->
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="row">
+            <div class="text-align-center">
+              <h2>Skills</h2>
+              <hr class="w-50">
+              <h4>Always believe in Upgrading and Knowledgeable about latest tecnologies</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- footer -->
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white border-bottom"
+          style="background-color: black"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Web Technology
+            </h6>
+            <div class="footer-logo">
+              <img src="html.png" alt="HTML" srcset="">
+              <img src="css.jpg" alt="Css" srcset="">
+              <img src="js.svg" alt="JavaScript" srcset="">  
+              <img src="bootstrap.png" alt="bootstrap" srcset="">  
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Important Links</h6>
+            <p>
+              <a class="text-white" href="#home">Home</a>
+            </p>
+            <p>
+              <a class="text-white" href="#about">About</a>
+            </p>
+            <p>
+              <a class="text-white" href="#skill">Skills</a>
+            </p>
+            <p>
+              <a class="text-white" href="project">Projects</a>
+            </p>
+            <p>
+              <a class="text-white" href="contact">Contact</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact US</h6>
+            <div class="form">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label>Message</label>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              </div>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow me</h6>
+
+            <!-- Facebook -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #3b5998"
+               href="#!"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ><i class="bi bi-facebook"></i></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               class="fa-brands fa-twitter"
+               href="#!"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #dd4b39"
+               href="#!"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #ac2bac"
+               href="#!"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+            <!-- Linkedin -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #0082ca"
+               href="#!"
+               role="button"
+               ><i class="fab fa-linkedin-in"></i
+              ></a>
+            <!-- Github -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #333333"
+               href="#!"
+               role="button"
+               ><i class="fab fa-github"></i
+              ></a>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+<!-- End of .container -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
